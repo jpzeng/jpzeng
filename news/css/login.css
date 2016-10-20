@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS reset */
+*{ font-family:"microsoft yahei",simsun,Tahoma,sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+fieldset,img {border:0; }
+ol,ul {list-style:none; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0; border:0;}
+table {border-collapse:collapse;border-spacing:0;}
+i, cite, em, var, dfn, address {font-style: normal;}
+body{ font-size:14px; height: 100%;}
+html{height: 100%}
+a{color: #313131;text-decoration: none; }
+a:hover{text-decoration: underline;}
+a:active, a:focus{outline:none}
+a[href^="http://tongji.baidu.com"]{display: none;}
+
+
+
+/*注册页面*/
+.login_bj{ background:url(../images/bj_zhuce.jpg) no-repeat top center;}
+
+
+/*登录页面*/
+.zhuce_body .login_kuang{ margin-top:200px;margin-left:auto ;margin-right:auto ;width:330px; height:auto; }
+.zhuce_body .login_kuang .zc{ width:330px; height:auto;}
+.zhuce_body .login_kuang .zc .bj_bai{ border-radius: 7px;width:293px; height:330px; padding-left:38px; background:#FFF;}
+.zhuce_body .login_kuang .zc .bj_bai h3{ font:16px/70px "微软雅黑", "黑体"; color:#37b5f9; width:270px; text-align:left;margin-bottom: 10px;}
+.zhuce_body .login_kuang .zc .bj_right{ float:left;width:173px; height:256px; padding-left:37px; background:#f8f8f8;}
+.zhuce_body .login_kuang .zc .bj_bai .kuang_txt{ width:220px; border-radius: 2px;height:32px; border:1px solid #dddddd; background:#faffbd; line-height:32px; padding-left:32px; color:#b1a9a9;  margin-bottom:20px; }
+.zhuce_body .login_kuang .zc .bj_bai a{ color:#37b5f9; float:right; margin-right:35px;}
+.zhuce_body .login_kuang .zc .bj_bai .btn_zhuce{ margin-bottom: 20px;width:227px; height:33px;margin-left: 14px;background:#37b5f9; font-size:14px; line-height:33px; text-align:center; border:0px; color:#fff; border-radius:3px; cursor:pointer;}
+.zhuce_body .login_kuang .zc .bj_bai .btn_zhuce:hover,.login_qita_kuang .zc .left .btn_zhuce:hover{ background:rgb(108,201,251);}
+.zhuce_body .login_kuang .zc .bj_bai  .username{background:url(../images/zc_06.jpg) no-repeat 10px 10px;}
+.zhuce_body .login_kuang .zc .bj_bai  .possword{background:url(../images/zc_16.jpg) no-repeat 10px 10px;}
+ 
+.personal-info{
+	border-left: 2px solid rgb(46,167,224);
+	height: 30px;
+	font-size: 20px;
+	line-height: 40px;
+	padding-left: 20px;
+	color: rgb(80,80,80);
+	margin-bottom: 20px;
+}
+.divide{
+	width: 325px;
+	border-top: 1px solid rgb(200,200,200);
+	margin-bottom: 30px;
+}
+ .form_container1{
+ 	width: 800px;
+ 	height: auto;
+ 	padding-bottom: 200px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	
+ 	
+ 	background: white;
+ }
+ .form_container{
+ 	width: 800px;
+ 	height: auto;
+ 	padding-bottom: 200px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	
+ 	
+ 	background: white;
+ }
+ .form-group{
+ 	width: 350px;
+ 	font-size: 15px;
+ 	padding-top: 50px;
+ 	 	margin-right: auto;
+ 	margin-left: auto;
+ 	
+ }
+.form-label{font-size: 18px;color: rgb(150,150,150);margin-right: 10px;}
+.form-label1{font-size: 15px;color: rgb(150,150,150);margin-right: 10px;}
+.form-group .username{background:url(../images/zc_06.jpg) no-repeat 10px 10px;}
+.form-group .kuang_txt{ width:220px; border-radius: 2px;height:32px; border:1px solid #dddddd; line-height:32px; padding-left:32px; color:#b1a9a9;  margin-bottom:20px; }
+.form-group .possword{background:url(../images/zc_16.jpg) no-repeat 10px 10px;}
+.form-group .email{background:url(../images/zc_12.jpg) no-repeat 10px 10px;}
+.form-group .btn_zhuce{ margin-top: 30px;width:300px; height:40px;background:#37b5f9; font-size:18px; line-height:33px; text-align:center; border:0px; color:#fff; border-radius:3px; cursor:pointer;}
+.form-group .btn_zhuce:hover,.login_qita_kuang .zc .left .btn_zhuce:hover{ background:rgb(108,201,251);}
+.form-group h3{font-size: 40px;color: rgb(55,181,249);text-align: center;margin-bottom: 40px;}
+.form-group-each{margin-bottom: 8px; padding-left: 20px;}
+
+.form-group .keyname{background:url(../images/xg.png) no-repeat 10px 10px;}
+.form-group .keyname_txt{ width:204px; border-radius: 2px;height:32px; border:1px solid #dddddd; line-height:32px; padding-left:32px; color:#b1a9a9;  margin-bottom:20px; }

@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <link type="text/css" rel="stylesheet" href="css/login.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+function openwin(){
+    window.open("login.html", "", "width=200,height=200") ; 
+}
+</script>
+
+</head>
+<body class="login_bj" >
+
+    <div class="form_container">
+
+        <div class="form-group">
+
+
+            <h3>注册</h3>
+
+            <form action="registration.php" method="post">
+              <div class ="personal-info">基本信息</div>
+              <div class="divide"></div>
+              <div class="form-group-each">
+                <span class= "form-label">帐号</span><input name="username" type="text" class="kuang_txt username" placeholder="">
+            </div>
+            <div class="form-group-each">
+                <span class= "form-label">密码</span><input name="password" type="password" class="kuang_txt possword" placeholder="">
+            </div>
+           
+
+           
+            <div class ="personal-info">喜欢的新闻类别</div>
+              <div class="divide"></div>
+            <div class="form-group-each">
+                <span class= "form-label1">类别1</span><input name="keyname1" type="text" class="keyname_txt keyname " placeholder="">
+            </div>
+            <div class="form-group-each">
+                <span class= "form-label1">类别2</span><input name="keyname2" type="text" class="keyname_txt  keyname " placeholder="">
+            </div>
+
+            <div class="form-group-each">
+                <span class= "form-label1">类别3</span><input name="keyname3" type="text" class="keyname_txt keyname " placeholder="">
+                </div>
+
+                <input name="" type="checkbox" value=""><span style="margin-left: 10px;  ">已阅读并同意<a href="#" target="_blank"><span  style="color: rgb(82,191,250);text-decoration :underline;">《使用协议》</span></a></span>
+                <input name="submit" type="submit" class="btn_zhuce" value="注册">
+                <div style="margin-bottom: 20px">
+                </div>
+                
+            </form>
+
+            
+            
+
+
+        </div>
+
+    </div>
+</body>
+</html>
