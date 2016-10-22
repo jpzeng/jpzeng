@@ -1,4 +1,4 @@
-package ODPSandOSS;
+﻿package ODPSandOSS;
 
 
 
@@ -39,8 +39,8 @@ public class TestSQLTask {
 	private static String uploadodpsUrl = "http://service.odps.aliyun.com";
 	private static String table = "news_collector";
 
-	private static String accessId = "QZdMoMzxZzGTS6AU";
-	private static String accessKey = "MhRpL31hjWp5SumfhThOKNvlbcr5H0";
+	private static String accessId = "***********";
+	private static String accessKey = "**************************";
 
 	private static String project = "news_recommendation";
 
@@ -264,8 +264,8 @@ public class TestSQLTask {
    	     //System.out.println(Url); 
    	    String endpoint = "http://oss-cn-hangzhou.aliyuncs.com";
 		// accessKey请登录https://ak-console.aliyun.com/#/查看
-		String accessKeyId = "QZdMoMzxZzGTS6AU";
-		String accessKeySecret = "MhRpL31hjWp5SumfhThOKNvlbcr5H0";
+		String accessKeyId = "************";
+		String accessKeySecret = "******************************";
 		
 		// 创建OSSClient实例
 		//OSSClient ossClient = new OSSClient(endpoint, accessKeyId, accessKeySecret);
